@@ -13,7 +13,7 @@ def main():
     st.title("Salary Prediction App")
 
     # Load the pre-trained model
-    model_path = os.path.join(os.path.dirname(__file__), 'C:\Users\abhishek\OneDrive\Desktop\streamlit files\Test 1\salary_model.pkl')
+    model_path = os.path.join(os.path.dirname(__file__), 'salary_model.pkl')
     try:
         model = joblib.load(model_path)
     except Exception as e:
